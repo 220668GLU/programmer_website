@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    overflow-x: hidden;
+    font-style: oblique;
+  }
+  
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+body{
+    background-color: black;
+}
+
+#logo{
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#header{
+    margin-top: -26.5px;
+    margin-left: -10px;
+    width: 1530px;
+    height: 100px;
+    background-color: rgb(39, 39, 39);
+    top: 0px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 75px;
+}
+
+#nav{
+    margin-left: -10px;
+    width: 1530px;
+    height: 75px;
+    background-color: rgb(30, 30, 30);
+}
+
+.button{
+    height: 75px;
+    width: 100px;
+    position: absolute;
+    left: 46%;
+    background-color: rgb(30, 30, 30);
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+}
+
+#lorem{
+    color: aliceblue;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    left: 400px;
+    margin: 200px;
+}
+
+#bill{
+    height: 500px;
+}
+
+#end{
+    position: absolute;
+    left: 15%;
+}
